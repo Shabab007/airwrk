@@ -1,4 +1,7 @@
 const taksbills=(bills)=>{
+    if(bills[0] !==5){
+        return false
+    }
     let amount=0
     const changes={}
     for (let value of bills ){
